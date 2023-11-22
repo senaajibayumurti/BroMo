@@ -1,7 +1,7 @@
 <nav class="bm-openednav d-flex flex-column p-0">
     <ul class="nav">
         <li class="nav-item fw-bold nav-link w-100 active">
-            <img id="navbar-logo" src="..\AGambar\BroMo Tipografi.png" class="w-100 h-auto" alt="">
+            <img id="navbar-logo" src="\images\BroMo Tipografi.png" class="w-100 h-auto" alt="">
         </li>
         <li class="nav-item d-flex justify-content-end w-100">
             <a id="close-sidebar" class="nav-link">
