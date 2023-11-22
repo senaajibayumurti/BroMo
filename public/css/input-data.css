@@ -1,0 +1,12 @@
+@import 'style.css';
+
+#profile-container{
+    width: 90px;
+    height: 60px;
+}
+
+.form-input-data{
+    max-width: 75%;
+    background-color: var(--shadow-bm);
+    border-radius: 16px;
+}

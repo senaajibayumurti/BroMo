@@ -1,0 +1,15 @@
+@import 'style.css';
+
+#profile-container{
+    width: 90px;
+    height: 60px;
+}
+
+.form-klasifikasi{
+    max-width: 75%;
+    background-color: var(--shadow-bm);
+    border-radius: 16px;
+}
+.form-klasifikasi div input{
+    border-bottom: 2px dotted var(--black-bm);
+}

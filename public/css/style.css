@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;700;800;900&display=swap');
+
+:root{
+    /*setup font*/
+    --main-font: 'Poppins', sans-serif;
+
+    /*setup warna*/
+    --green-bm:  #3AB46A;
+    --yellow-bm: #FEB618;
+    --red-bm:    #EC1D27;
+    --white-bm:  #FFFFFF;
+    --bg1-bm:    #EFF8FF;
+    --bg2-bm:    #DFEDE5;
+    --grey-bm:   #ADADAD;
+    --black-bm:  #000000;
+    --shadow-bm: #00000005;
+}
+
+body{
+    /* height: 100vh;
+    width: 100%; */
+    font-family: var(--main-font);
+    font-weight: 400;
+    background-color: var(--white-bm);
+    overflow-y: hidden;
+}
+
+main{
+    height: 100%;
+}
+
+*{
+    font-family: var(--main-font);
+    color: var(--black-bm);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* PRESET BACKGROUND */
+.bm-bg1{
+    background-color: var(--white-bm);
+}
+.bm-bg2{
+    background-color: var(--bg1-bm);
+}
+.bm-bg3{
+    background-color: var(--bg2-bm);
+}
+.bm-button{
+    color:var(--green-bm);
+}
+
+/* PRESET BORDER */
+.bm-border1{
+    border: 3px;
+    border-style: solid;
+    border-color: var(--green-bm);
+}
+
+.bm-border2{
+    border: 3px;
+    border-style: solid;
+    border-color: var(--yellow-bm);
+}
+
+.bm-border3{
+    border: 3px;
+    border-style: solid;
+    border-color: var(--red-bm);
+}
+
+.bm-border4{
+    border: 3px;
+    border-style: solid;
+    border-color: var(--black-bm);
+}
+
+/* PRESET FONT */
+.bm-font-medium{
+    font-weight: 500;
+}
+.bm-font-semibold{
+    font-weight: 600;
+}
+.bm-font-bold1{
+    font-weight: 700;
+}
+.bm-font-bold2{
+    font-weight: 800;
+}
+.bm-font-bold3{
+    font-weight: 900;
+}
+
+.bm-font-clr1{
+    color: var(--green-bm);
+    text-decoration: none;
+}
+.bm-font-clr2{
+    color: var(--yellow-bm);
+    text-decoration: none;
+}
+.bm-font-clr3{
+    color: var(--red-bm);
+    text-decoration: none;
+}
+.bm-font-clr4{
+    color: var(--white-bm);
+    text-decoration: none;
+}
+.bm-font-clr5{
+    color: var(--grey-bm);
+    text-decoration: none;
+}
+
+.bm-font-12{
+    font-size: 12px;
+}
+.bm-font-16{
+    font-size: 16px;
+}
+.bm-font-24{
+    font-size: 24px;
+}
+.bm-font-36{
+    font-size: 36px;
+}
+.bm-font-54{
+    font-size: 54px;
+}
+.bm-font-96{
+    font-size: 96px;
+}
+
+/* ----------------------------------------- */
+
+#card{
+    border-radius: 16px;
+}
+
+/* PRESET TOMBOL */
+#btn-success-bm{
+    background-color: var(--green-bm);
+    color: var(--white-bm);
+}
+
+#btn-danger-bm{
+    background-color: var(--red-bm);
+    color: var(--white-bm);
+}

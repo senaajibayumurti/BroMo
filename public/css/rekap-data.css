@@ -1,0 +1,10 @@
+@import 'style.css';
+
+.form-klasifikasi{
+    max-width: 75%;
+    background-color: var(--shadow-bm);
+    border-radius: 16px;
+}
+.form-klasifikasi div input{
+    border-bottom: 2px dotted var(--black-bm);
+}

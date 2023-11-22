@@ -1,0 +1,35 @@
+@import 'style.css';
+
+.container-fluid{
+    height: 100vh;
+    padding: 0px;
+}
+
+.nav-link{
+    color: #3AB46A;
+}
+
+.bm-openednav{
+    width: 250px;
+    height: 100vh;
+    box-shadow: 1px 1px 10px grey;
+
+    transition: all ease-out .3s;
+}
+.bm-openednav.hide{
+    width: 75px;
+
+    transition: all ease-in .3s;
+}
+.bm-openednav nav{
+    height: 100%;
+}
+.bm-openednav.hide a{
+    display: flex;
+    justify-content: center;
+
+    transition: all ease-in-out .3s;
+}
+.bm-openednav.hide #nav-item-text{
+    display: none;
+}

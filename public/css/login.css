@@ -1,0 +1,24 @@
+@import 'style.css';
+
+.bg-atas{
+    background-color: var(--green-bm);
+    height: 50vh;
+}
+.bg-bawah{
+    background-color: var(--white-bm);
+    height: 50vh;
+}
+
+.form-login {
+    width: 539px;
+    height: 85%;
+    padding: 36px;
+    background: white; 
+    box-shadow: 5px 4px 35px gray;
+    border-radius: 36px;
+}
+
+#card{
+    width: auto;
+    height: 175px;
+}
