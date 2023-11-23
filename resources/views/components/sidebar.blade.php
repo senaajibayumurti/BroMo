@@ -14,6 +14,8 @@
                 <span id="nav-item-text" >HOME</span>
             </a>
         </li>
+
+        {{-- SIDEBAR ITEMS OWNER --}}
         <li class="nav-item w-100">
             <a href="{{url('/forecasting')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
@@ -44,7 +46,22 @@
                 <span id="nav-item-text" >KANDANG</span>
             </a>
         </li>
+    
+    {{-- SIDEBAR ITEMS FARMER --}}
+        {{-- <li class="nav-item w-100">
+            <a href="{{url('/input-data')}}" class="nav-link text-dark">
+                <i class="bi bi-cloud"></i>
+                <span id="nav-item-text" >INPUT DATA</span>
+            </a>
+        </li>
+        <li class="nav-item w-100">
+            <a href="{{url('/input-panen')}}" class="nav-link text-dark">
+                <i class="bi bi-clipboard2-data"></i>
+                <span id="nav-item-text" >INPUT PANEN</span>
+            </a>
+        </li> --}}
     </ul>
+
     <button id="btn-success-bm" href="#" class="nav-link text-dark text-start mt-auto p-3 w-100">
         <i class="bi bi-box-arrow-right"></i>
         <span id="nav-item-text" >LOG OUT</span>

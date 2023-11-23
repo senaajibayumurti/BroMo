@@ -6,9 +6,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/sign-in', function () {
+    return view('auth.signin');
+});
+Route::get('/log-in', function () {
+    return view('auth.login');
+});
+
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');
 });
+
+Route::get('/input-data', function () {
+    return view('farmer.inputdata');
+});
+Route::get('/input-panen', function () {
+    return view('farmer.inputpanen');
+});
+
 Route::get('/forecasting', function () {
     return view('owner.forecasting');
 });
