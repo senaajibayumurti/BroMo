@@ -12,6 +12,10 @@ Route::get('/dashboard', function () {
 Route::get('/forecasting', function () {
     return view('owner.forecasting');
 });
+Route::get('/forecasting/klasifikasi', function () {
+    return view('owner.klasifikasi');
+});
+
 Route::get('/rekap-data', function () {
     return view('owner.rekap-data');
 });

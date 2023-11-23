@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div>
-                <button id="btn-success-bm" class="btn btn-lg btn-block w-100" type="submit">Klasifikasi Detail</button>
+                <a id="btn-success-bm" class="btn btn-lg btn-block w-100" href="{{url('/forecasting/klasifikasi')}}">Klasifikasi Detail</a>
             </div>
         </div>
     </div>
