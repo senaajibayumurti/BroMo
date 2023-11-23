@@ -14,16 +14,18 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/sidebar.css">
-    @stack('styles')
 </head>
 <body>
     <div class="wrapper d-flex align-items-stretch vh-100">
         <x-sidebar/>
         <div class="d-flex flex-column justify-content-start w-100">
             <x-navbar/>
-            {{$slot}}
+            <div class="d-flex flex-column justify-content-start vh-100 w-100 py-3 px-5">
+                {{$slot}}
+            </div>
         </div>
     </div>
     <script src="/js/sidebar.js"></script>
+    @stack('scripts')
 </body>
 </html>

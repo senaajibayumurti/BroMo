@@ -11,6 +11,7 @@
     --white-bm:  #FFFFFF;
     --bg1-bm:    #EFF8FF;
     --bg2-bm:    #DFEDE5;
+    --bg3-bm:    #D6EFE0;
     --grey-bm:   #ADADAD;
     --black-bm:  #000000;
     --shadow-bm: #00000005;
@@ -47,6 +48,12 @@ main{
 }
 .bm-bg3{
     background-color: var(--bg2-bm);
+}
+.bm-bg4{
+    background-color: var(--bg3-bm);
+}
+.bm-bg5{
+    background-color: var(--green-bm);
 }
 .bm-button{
     color:var(--green-bm);
@@ -112,6 +119,10 @@ main{
 }
 .bm-font-clr5{
     color: var(--grey-bm);
+    text-decoration: none;
+}
+.bm-font-clr6{
+    color: var(--black-bm);
     text-decoration: none;
 }
 

@@ -24,4 +24,10 @@ Route::get('/pekerja', function () {
 Route::get('/kandang', function () {
     return view('owner.kandang');
 });
+Route::get('/kandang/tambah-kandang', function () {
+    return view('owner.input-kandang');
+});
+Route::get('/kandang/edit-kandang', function () {
+    return view('owner.edit-kandang');
+});
 
