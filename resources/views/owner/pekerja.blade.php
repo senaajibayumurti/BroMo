@@ -10,7 +10,7 @@
                     <span class="d-block">Kandang 1</span>
                 </div>
             </div>
-            <button class="btn btn-lg btn-success btn-block my-auto" type="submit">Buka</button>
+            <a id="btn-success-bm" class="btn btn-lg btn-block my-auto" href="{{url('/pekerja/edit-pekerja')}}">Buka</a>
         </div>
     </div>
 </x-app-layout>

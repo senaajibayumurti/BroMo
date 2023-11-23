@@ -21,6 +21,10 @@ Route::get('/panen', function () {
 Route::get('/pekerja', function () {
     return view('owner.pekerja');
 });
+Route::get('/pekerja/edit-pekerja', function () {
+    return view('owner.edit-pekerja');
+});
+
 Route::get('/kandang', function () {
     return view('owner.kandang');
 });
