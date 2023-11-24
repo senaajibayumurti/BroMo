@@ -25,7 +25,8 @@
                 <div class="text-end mb-3">
                     <a href="#" class="bm-font-clr1">Forgot Password</a>
                 </div>
-                <button id="btn-success-bm" class="btn btn-lgbtn-block w-100" type="submit">Log in</button>
+                {{-- <button id="btn-success-bm" class="btn btn-lgbtn-block w-100" type="submit">Log in</button> --}}
+                <a id="btn-success-bm" class="btn btn-lgbtn-block w-100" href="{{url('/dashboard')}}">Log in</a>
             </div>
         </form>
     </div>

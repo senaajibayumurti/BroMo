@@ -1,4 +1,7 @@
 <x-app-layout>
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">REKAP DATA</span>
+    @endpush
     <table class="table table-bordered border-black my-5">
         <thead class="table-success text-center">
             <tr>

@@ -32,7 +32,8 @@
                     <label for="inputPassword">Enter your Password</label>
                     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 </div>
-                <button id="btn-success-bm" class="btn btn-lg btn-block w-100" type="submit">Sign in</button>
+                {{-- <button id="btn-success-bm" class="btn btn-lg btn-block w-100" type="submit">Sign in</button> --}}
+                <a id="btn-success-bm" class="btn btn-lg btn-block w-100" href="{{url('/log-in')}}">Sign in</a>
             </div>
         </form>
     </div>
@@ -56,7 +57,15 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-bawah col-md-12">
+            <!-- SEPARATOR -->
+            <div class="bg-bawah col-md-12 p-4">
+                <!-- SAVED ACCOUNT CARDS -->
+                <div id="card" class="bm-bg2 d-inline-flex flex-column justify-content-between align-items-center p-4">
+                    <div><i class="bm-font-54 bi bi-circle-fill"></i></div>
+                    <div class="bm-font-16 bm-font-semibold">Pemilik</div>
+                    <span class="bm-font-12 bm-font-semibold bm-font-clr5">Active 1 day(s) ago</span>
+                </div>
+            </div>
             </div>
         </div>
     </div>

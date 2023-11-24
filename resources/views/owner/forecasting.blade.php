@@ -1,4 +1,7 @@
 <x-app-layout>
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">FORECASTING</span>
+    @endpush
     <div id="info" class="d-flex flex-column justify-content-around h-100">
         <div class="d-flex flex-row justify-content-between h-25">
             <div id="card" class="bm-border2 d-flex flex-column justify-content-between align-items-center py-2 w-25">

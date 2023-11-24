@@ -1,6 +1,11 @@
 <x-app-layout>
     <link rel="stylesheet" href="/css/kandang-switch.css">
     <link rel="stylesheet" href="/css/tambah-kandang.css">
+
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">KANDANG</span>
+    @endpush
+    
     <div id="switch" >
         <div id="switch-bg" ></div>
         <button id="switch-btn" onclick="leftClick()">Aktif</button>

@@ -1,5 +1,9 @@
 <x-app-layout>
     <link rel="stylesheet" href="/css/tambah-kandang.css">
+    
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">KANDANG</span>
+    @endpush
 
     <div id="card" class="bm-border4 d-flex flex-row justify-content-start align-items-center py-2 w-100 px-5">
         <div><i class="bm-font-96 bi bi-bank"></i></div>

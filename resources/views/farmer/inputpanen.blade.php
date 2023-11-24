@@ -1,4 +1,7 @@
 <x-app-layout>
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">INPUT PANEN</span>
+    @endpush
     <form class="form-klasifikasi w-100 m-auto p-4">
         <div class="bm-font-36 bm-font-bold1 text-center mb-5">
             <span class="bm-font-36 bm-font-bold1" >Riwayat Panen</span>

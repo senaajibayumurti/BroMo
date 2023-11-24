@@ -1,4 +1,7 @@
 <x-app-layout>
+    @push('navbar-title')
+        <span class="bm-font-clr1 bm-font-bold3 bm-font-36">PEKERJA</span>
+    @endpush
     {{-- LIST CARD PEKERJA  --}}
     <div class="my-3 p-3 bg-white rounded box-shadow mx-5">
         {{-- CARD PEKERJA  --}}
