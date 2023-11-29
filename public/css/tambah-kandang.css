@@ -1,0 +1,16 @@
+@import 'style.css';
+
+/* TOMBOL TAMBAH KANDANG */
+#tambah-kandang{
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+    padding: 0 16px 0 16px;
+    border-radius: 96px;
+    position: absolute;
+    color: var(--white-bm);
+    background-color: var(--green-bm);
+}
+
+/* LAYOUT TAMBAH KANDANG */
