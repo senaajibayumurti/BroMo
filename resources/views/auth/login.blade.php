@@ -15,8 +15,8 @@
             </div>
             <div class="d-flex flex-column justify-content-between">
                 <div class="form-label-group mb-4">
-                    <label for="inputEmail">Enter your username or email address</label>
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <label for="inputUsername">Enter your username</label>
+                    <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
                 </div>
                 <div class="form-label-group mb-4">
                     <label for="inputPassword">Enter your Password</label>
@@ -25,8 +25,8 @@
                 <div class="text-end mb-3">
                     <a href="#" class="bm-font-clr1">Forgot Password</a>
                 </div>
-                {{-- <button id="btn-success-bm" class="btn btn-lgbtn-block w-100" type="submit">Log in</button> --}}
-                <a id="btn-success-bm" class="btn btn-lgbtn-block w-100" href="{{url('/dashboard')}}">Log in</a>
+                <button id="btn-success-bm" class="btn btn-lgbtn-block w-100">Log in</button>
+                <!-- <a id="btn-success-bm" class="btn btn-lgbtn-block w-100" href="{{url('/dashboard')}}">Log in</a> -->
             </div>
         </form>
     </div>
@@ -62,4 +62,50 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add an event listener to the login button
+            document.getElementById('btn-success-bm').addEventListener('click', function (event) {
+                event.preventDefault();
+
+                // Get the values from input fields
+                const username = document.getElementById('inputUsername').value;
+                const password = document.getElementById('inputPassword').value;
+
+                // Make an HTTP POST request to the login endpoint
+                const apiUrl = 'http://127.0.0.1:8080/api/login'; // Update with your actual login endpoint
+
+                fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        password: password,
+                        username: username
+                    }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Login Response:', data);
+
+                    // Handle the login response as needed
+                    if (data.errors) {
+                        // Redirect to the dashboard or perform other actions
+                        alert('Login failed. Please check your credentials.');
+                    } else {
+                        // Handle login failure
+                        window.location.href = '{{ url('/dashboard') }}';
+                    }
+                })
+                .catch(error => {
+                    console.error('Login Error:', error);
+                });
+            });
+        });
+    </script>
+
 </x-app-layout>
