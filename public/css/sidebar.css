@@ -33,3 +33,7 @@
 .bm-openednav.hide #nav-item-text{
     display: none;
 }
+
+#navbar-logo{
+    width: 181px;
+}

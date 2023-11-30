@@ -16,11 +16,15 @@ Route::get('/log-in', function () {
 Route::get('/dashboard', function () {
     return view('layouts.dashboard');
 });
+
 Route::get('/notifikasi', function () {
     return view('layouts.notifikasi');
 });
 Route::get('/notifikasi/detail', function () {
     return view('layouts.notifikasidetail');
+});
+Route::get('/profile', function () {
+    return view('auth.profile');
 });
 
 Route::get('/input-data', function () {

@@ -1,23 +1,28 @@
 <x-app-layout>
+    <link rel="stylesheet" href="/css/forecasting.css">
+
     @push('navbar-title')
         <span class="bm-font-clr1 bm-font-bold3 bm-font-36">FORECASTING</span>
     @endpush
     <div id="info" class="d-flex flex-column justify-content-around h-100">
         <div class="d-flex flex-row justify-content-between h-25">
-            <div id="card" class="bm-border2 d-flex flex-column justify-content-between align-items-center py-2 w-25">
+            <div id="card" class="d-flex flex-column justify-content-between align-items-center py-2 w-25">
                 
-                <div class="bm-font-24 bm-font-semibold bm-font-clr2">Suhu</div>
-                <div class="bm-font-24 bm-font-semibold bm-font-clr2">{-°C}</div>
+                <div>
+                    <canvas id="forecasting-chart-1"></canvas>
+                </div>
             </div>
-            <div id="card" class="bm-border1 d-flex flex-column justify-content-between align-items-center py-2 w-25">
+            <div id="card" class="d-flex flex-column justify-content-between align-items-center py-2 w-25">
                 
-                <div class="bm-font-24 bm-font-semibold bm-font-clr1">Kelembaban</div>
-                <div class="bm-font-24 bm-font-semibold bm-font-clr1">{-%}</div>
+                <div>
+                    <canvas id="forecasting-chart-2"></canvas>
+                </div>
             </div>
-            <div id="card" class="bm-border3 d-flex flex-column justify-content-between align-items-center py-2 w-25">
+            <div id="card" class="d-flex flex-column justify-content-between align-items-center py-2 w-25">
                 
-                <div class="bm-font-24 bm-font-semibold bm-font-clr3">Amonia</div>
-                <div class="bm-font-24 bm-font-semibold bm-font-clr3">{-%}</div>
+                <div>
+                    <canvas id="forecasting-chart-3"></canvas>
+                </div>
             </div>
         </div>
         <!-- INFO FORECASTING -->
@@ -48,4 +53,5 @@
             </div>
         </div>
     </div>
+    <script src="/js/chart.js"></script>
 </x-app-layout>

@@ -10,3 +10,8 @@
 #info1, #info2{
     width: 800px;
 }
+
+#forecasting-chart-1, #forecasting-chart-2, #forecasting-chart-3{
+    width: 200px;
+    height: auto;
+}
