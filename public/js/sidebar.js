@@ -14,14 +14,14 @@ sidebarButton.addEventListener('click', function() {
         chevron.classList.remove('bi-chevron-double-left');
         chevron.classList.add('bi-chevron-double-right');
     }
-    checkImageWidth(navbarLogo);
+    // checkImageWidth(navbarLogo);
 });
 
-function checkImageWidth(imageElement) {
-    const lebarGambar = imageElement.width;
+// function checkImageWidth(imageElement) {
+//     const lebarGambar = imageElement.width;
 
-    // Jika lebar gambar kurang dari 50px, ganti src
-    if (lebarGambar < 50) {
-        imageElement.src = '\images\BroMo Logografi.png'; // Ganti dengan nama file gambar yang baru
-    }
-}
+//     // Jika lebar gambar kurang dari 50px, ganti src
+//     if (lebarGambar < 50) {
+//         imageElement.src = '\images\BroMo Logografi.png'; // Ganti dengan nama file gambar yang baru
+//     }
+// }

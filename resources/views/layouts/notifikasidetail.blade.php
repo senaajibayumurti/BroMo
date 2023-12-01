@@ -21,5 +21,4 @@
             </div>
         </div>
     </div>
-    <button id="btn-success-bm" class="btn btn-lg btn-block" type="submit">Simpan</button>
 </x-app-layout>

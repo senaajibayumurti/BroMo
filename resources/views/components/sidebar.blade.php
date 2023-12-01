@@ -62,8 +62,8 @@
         </li> --}}
     </ul>
 
-    <button id="btn-success-bm" href="#" class="nav-link text-dark text-start mt-auto p-3 w-100">
+    <a id="btn-success-bm" href="{{url('/log-in')}}" class="nav-link text-dark text-start mt-auto p-3 w-100">
         <i class="bi bi-box-arrow-right"></i>
         <span id="nav-item-text" >LOG OUT</span>
-    </button>  
+    </a>  
 </nav>

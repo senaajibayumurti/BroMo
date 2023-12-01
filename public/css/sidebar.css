@@ -33,7 +33,10 @@
 .bm-openednav.hide #nav-item-text{
     display: none;
 }
+/* .bm-openednav.bm-openednav.hide #navbar-logo{
+    src: url("\images\BroMo Logografi.png");
+} */
 
 #navbar-logo{
-    width: 181px;
+    width: 100%;
 }

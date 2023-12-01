@@ -37,36 +37,34 @@
             </div>
         </form>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="bg-atas col-md-12">
-                <div class="bm-font-clr4 bm-font-bold2 bm-font-24 mx-4 p-2">BroMo Apps</div>
-                <div class="d-flex flex-row align-content-stretch w-50 h-100 mx-5">
-                    <div class="d-flex flex-column w-75 justify-content-around">
-                        <div>
-                            <div class="bm-font-clr4 bm-font-bold1 bm-font-36">Welcome Back</div>
-                            <div class="bm-font-clr4 bm-font-24">Broiler Monitoring</div>
-                            <br>
-                            <div class="bm-font-clr4 bm-font-12">
-                                BroMo adalah singkatan dari Broiler Monitoring, aplikasi yang dirancang untuk memantau kandang ayam secara efektif. Tujuan dari dibuatnya aplikasi ini adalah untuk meningkatkan efektifitas pemantauan kandang ayam bagi owner dan juga anak kandang secara real-time.
-                            </div>
+    <div class="w-100">
+        <div class="bg-atas col-md-12">
+            <div class="bm-font-clr4 bm-font-bold2 bm-font-24 mx-4 p-2">BroMo Apps</div>
+            <div class="d-flex flex-row align-content-stretch w-50 h-100 mx-5">
+                <div class="d-flex flex-column w-75 justify-content-around">
+                    <div>
+                        <div class="bm-font-clr4 bm-font-bold1 bm-font-36">Welcome Back</div>
+                        <div class="bm-font-clr4 bm-font-24">Broiler Monitoring</div>
+                        <br>
+                        <div class="bm-font-clr4 bm-font-12">
+                            BroMo adalah singkatan dari Broiler Monitoring, aplikasi yang dirancang untuk memantau kandang ayam secara efektif. Tujuan dari dibuatnya aplikasi ini adalah untuk meningkatkan efektifitas pemantauan kandang ayam bagi owner dan juga anak kandang secara real-time.
                         </div>
                     </div>
-                    <div class="m-auto">
-                        <img src="AGambar/man and woman working with laptop.png" alt="" style="width: auto; height: 250px;">
-                    </div>
+                </div>
+                <div class="m-auto">
+                    <img src="AGambar/man and woman working with laptop.png" alt="" style="width: auto; height: 250px;">
                 </div>
             </div>
-            <!-- SEPARATOR -->
-            <div class="bg-bawah col-md-12 p-4">
-                <!-- SAVED ACCOUNT CARDS -->
-                <div id="card" class="bm-bg2 d-inline-flex flex-column justify-content-between align-items-center p-4">
-                    <div><i class="bm-font-54 bi bi-circle-fill"></i></div>
-                    <div class="bm-font-16 bm-font-semibold">Pemilik</div>
-                    <span class="bm-font-12 bm-font-semibold bm-font-clr5">Active 1 day(s) ago</span>
-                </div>
+        </div>
+        <!-- SEPARATOR -->
+        <div class="bg-bawah col-md-12 p-4">
+            <!-- SAVED ACCOUNT CARDS -->
+            <div id="card" class="bm-bg2 d-inline-flex flex-column justify-content-between align-items-center p-4">
+                <div><i class="bm-font-54 bi bi-circle-fill"></i></div>
+                <div class="bm-font-16 bm-font-semibold">Pemilik</div>
+                <span class="bm-font-12 bm-font-semibold bm-font-clr5">Active 1 day(s) ago</span>
             </div>
-            </div>
+        </div>
         </div>
     </div>
 </x-app-layout>
