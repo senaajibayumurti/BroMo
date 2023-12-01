@@ -48,7 +48,7 @@
         </li>
     
     {{-- SIDEBAR ITEMS FARMER --}}
-        {{-- <li class="nav-item w-100">
+        <li class="nav-item w-100">
             <a href="{{url('/input-data')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
                 <span id="nav-item-text" >INPUT DATA</span>
@@ -59,7 +59,7 @@
                 <i class="bi bi-clipboard2-data"></i>
                 <span id="nav-item-text" >INPUT PANEN</span>
             </a>
-        </li> --}}
+        </li>
     </ul>
 
     <a id="btn-success-bm" href="{{url('/log-in')}}" class="nav-link text-dark text-start mt-auto p-3 w-100">

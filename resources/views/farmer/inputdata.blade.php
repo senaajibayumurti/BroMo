@@ -14,24 +14,24 @@
                 </div>
             </div>
             <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
-                <label for="Tanggal" class="w-50">Tanggal</label>
+                <label for="Tanggal" class="w-50">Tanggal dan Waktu</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="datetime-local" class="form-control-plaintext p-0" id="staticEmail">
                 </div>
             </div>
-            <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
+            {{-- <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
                 <label for="Tanggal" class="w-50">Waktu</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="datetime-local" class="form-control-plaintext p-0" id="staticEmail">
                 </div>
-            </div>
+            </div> --}}
             <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
                 <label for="Tanggal" class="w-50">Pakan</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>kg</label>
                 </div>
             </div>

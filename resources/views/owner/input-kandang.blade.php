@@ -14,28 +14,28 @@
             <label for="Tanggal" class="w-50">Nama Kandang</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-start w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail" placeholder="...">
+                <input type="text" class="form-control-plaintext p-0" id="inputNamaKandang" placeholder="...">
             </div>
         </div>
         <div class="bm-font-24 form-group d-flex flex-row justify-content-start pb-2">
             <label for="Tanggal" class="w-50">Tanggal Mulai</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-start w-50">
-                <input type="date" class="form-control-plaintext p-0" id="staticEmail" placeholder="...">
+                <input type="date" class="form-control-plaintext p-0" id="inputTanggalMulai" placeholder="...">
             </div>
         </div>
         <div class="bm-font-24 form-group d-flex flex-row justify-content-start pb-2">
             <label for="Tanggal" class="w-50">Pekerja</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-start w-50">
-                <input type="number" class="form-control-plaintext p-0" id="staticEmail" placeholder="...">
+                <input type="number" class="form-control-plaintext p-0" id="inputPekerja" placeholder="...">
             </div>
         </div>
         <div class="bm-font-24 form-group d-flex flex-row justify-content-start pb-2">
             <label for="Tanggal" class="w-50">Luas Kandang</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-start w-50">
-                <input type="number" class="form-control-plaintext p-0" id="staticEmail" placeholder="...">
+                <input type="number" class="form-control-plaintext p-0" id="inputLuasKandang" placeholder="...">
                 <label>m²</label>
             </div>
         </div>
@@ -43,7 +43,7 @@
             <label for="Tanggal" class="w-50">Populasi Awal</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-start w-50">
-                <input type="number" class="form-control-plaintext p-0" id="staticEmail" placeholder="...">
+                <input type="number" class="form-control-plaintext p-0" id="inputPupulasiA" placeholder="...">
                 <label>ekor</label>
             </div>
         </div>
