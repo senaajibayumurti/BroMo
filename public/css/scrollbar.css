@@ -1,0 +1,57 @@
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FFF; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3AB46A;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  
+  /* Handle saat di-hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3AB46A; 
+  }
+  
+  /* Handle saat di-drag */
+  ::-webkit-scrollbar-thumb:active {
+    background: #36a562;
+  }
+  
+  /* Buttons */
+  ::-webkit-scrollbar-button:single-button {
+    background-color: #FFF;
+    display: block;
+    border-style: solid;
+    height: 12px;
+    width: 12px;
+  }
+  
+  /* Up */
+  ::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 8px 6px 8px;
+    border-color: #FFF #FFF #3AB46A #FFF;
+  }
+  
+  ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-width: 0 8px 8px 8px;
+    border-color: #FFF #FFF #3AB46A #FFF;
+  }
+  
+  /* Down */
+  ::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 8px 0 8px;
+    border-color: #3AB46A #FFF #FFF #FFF;
+  }
+  
+  ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-width: 8px 8px 0 8px;
+    border-color: #3AB46A #FFF #FFF #FFF;
+  }

@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/scrollbar.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/sidebar.css">
 </head>
@@ -23,7 +24,7 @@
         <x-sidebar/>
         <div class="d-flex flex-column justify-content-start w-100">
             <x-navbar/> 
-            <div class="d-flex flex-column justify-content-start vh-100 w-100 py-3 px-5">
+            <div class="d-flex flex-column justify-content-start overflow-auto vh-100 w-100 py-3 px-5">
         @endif 
                 {{$slot}}
             </div>
