@@ -14,6 +14,22 @@
                 </div>
             </div>
             <div class="d-flex flex-column justify-content-between">
+                {{-- Social Sign-In --}}
+                <div class="d-flex flex-row justify-content-between mb-4">
+                    <button id="btn-auth-1" class="btn-auth bm-bg2 d-flex flex-row justify-content-center align-items-center border-0 me-2 py-2 px-2 w-100" onclick="toggleClassAndRedirect(this)">
+                        <img src="/images/google.png" alt="Google Logo">
+                        <span class="btn-auth-text ms-3">Log-In with Google</span>
+                    </button>
+                    <button id="btn-auth-2" class="btn-auth bm-bg2 d-flex flex-row justify-content-center align-items-center border-0 mx-2 py-2 px-2" onclick="toggleClassAndRedirect(this)">
+                        <img src="/images/facebook.png" alt="Facebook Logo">
+                        <span class="btn-auth-text ms-3">Log-In with Facebook</span>
+                    </button>
+                    <button id="btn-auth-3" class="btn-auth bm-bg2 d-flex flex-row justify-content-center align-items-center border-0 ms-2 py-2 px-2" onclick="toggleClassAndRedirect(this)">
+                        <img src="/images/apple.png" alt="Apple Logo">
+                        <span class="btn-auth-text ms-3">Log-In with Apple ID</span>
+                    </button>
+                </div>
+                {{-- Social Sign-In --}}
                 <div class="form-label-group mb-4">
                     <label for="inputUsername">Enter your username</label>
                     <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
@@ -104,5 +120,6 @@
             });
         });
     </script>
-
+    {{-- Script for Social Sign-In --}}
+    <script src="/js/auth-login.js"></script>
 </x-app-layout>

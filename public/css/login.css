@@ -10,15 +10,10 @@
 }
 
 .form-login {
-    width: 50vh;
+    width: 75vh;
     height: auto;
     padding: 36px;
     background: white; 
     box-shadow: 5px 4px 35px gray;
     border-radius: 36px;
-}
-
-#card{
-    width: auto;
-    height: 175px;
 }

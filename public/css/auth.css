@@ -1,0 +1,25 @@
+.btn-auth {
+    border-radius: 8px;
+    height: 50px;
+    width: 20%;
+
+    transition: all ease-out .1s;
+}
+.btn-auth-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: none;
+}
+.btn-auth.w-100 .btn-auth-text {
+    display: inline;
+}
+.btn-auth.w-100{
+    height: 50px;
+    width: 100%;
+    transition: all ease-out .1s;
+}
+.btn-auth img{
+    width: 30px;
+    height: au;
+}
