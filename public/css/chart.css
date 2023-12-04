@@ -1,0 +1,45 @@
+.pie {
+    --p: 25;      /* the percentage */
+    --b: 32px;    /* the thickness */
+    --w: 150px;   /* the size*/
+    width: var(--w);
+    height: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+    display: inline-grid;
+    margin: 5px;
+    place-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background:
+      radial-gradient(farthest-side, #fff calc(99% - var(--b)), #0000 calc(100% - var(--b))),
+      conic-gradient(from 0deg, #3AB46A, #FEB618, #EC1D27);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .pie:before,
+  .pie:after {
+    content: "";
+    position: absolute;
+    mix-blend-mode: lighten;
+  }
+  
+  .pie:before {
+    inset: 0;
+    background:
+      
+      conic-gradient(from 0deg, #000 calc(var(--p) * 3.6deg), #0000 0 calc(var(--p) * 3.6deg), #EBF0F5 0);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+            mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+  }
+  
+  .pie:after {
+    inset: calc(50% - var(--b) / 2);
+    background:
+      radial-gradient(#000 66%, #0000 67%),
+      linear-gradient(#0000 50%, #EBF0F5 0);
+    
+  }
+  
