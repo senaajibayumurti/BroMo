@@ -1,21 +1,21 @@
 var data1 = {
     datasets: [{
       data: [75, 25],
-      backgroundColor: ["#3AB46A", "transparent"]
+      backgroundColor: ["transparent", "#FFF"]
     }]
   };
 
   var data2 = {
     datasets: [{
       data: [60, 40],
-      backgroundColor: ["#3AB46A", "transparent"]
+      backgroundColor: ["transparent", "#FFF"]
     }]
   };
 
   var data3 = {
     datasets: [{
       data: [45, 55],
-      backgroundColor: ["#3AB46A", "transparent"]
+      backgroundColor: ["transparent", "#FFF"]
     }]
   };
 

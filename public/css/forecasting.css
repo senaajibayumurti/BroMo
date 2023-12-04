@@ -15,3 +15,9 @@
     width: 200px;
     height: auto;
 }
+
+canvas {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url(/images/forecasting-chart.png);
+}
