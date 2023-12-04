@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="m-auto">
-                    <img src="AGambar/man and woman working with laptop.png" alt="" style="width: auto; height: 250px;">
+                    <img src="/images/man and woman working with laptop.png" alt="" style="width: auto; height: 250px;">
                 </div>
             </div>
         </div>
