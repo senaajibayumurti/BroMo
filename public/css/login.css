@@ -10,8 +10,8 @@
 }
 
 .form-login {
-    width: 539px;
-    height: 85%;
+    width: 50vh;
+    height: auto;
     padding: 36px;
     background: white; 
     box-shadow: 5px 4px 35px gray;
