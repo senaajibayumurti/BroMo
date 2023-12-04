@@ -14,24 +14,17 @@
                 </div>
             </div>
             <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
-                <label for="Tanggal" class="w-50">Tanggal</label>
-                <label class="me-3">:</label>
-                <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
-                </div>
-            </div>
-            <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
                 <label for="Tanggal" class="w-50">Waktu</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="datetime-local" class="form-control-plaintext p-0" id="staticEmail">
                 </div>
             </div>
             <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
                 <label for="Tanggal" class="w-50">Pakan</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>kg</label>
                 </div>
             </div>
@@ -39,7 +32,7 @@
                 <label for="Tanggal" class="w-50">Minum</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>liter</label>
                 </div>
             </div>
@@ -47,7 +40,7 @@
                 <label for="Tanggal" class="w-50">Bobot</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>g/ekor</label>
                 </div>
             </div>
@@ -55,7 +48,7 @@
                 <label for="Tanggal" class="w-50">Populasi</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>ekor</label>
                 </div>
             </div>
@@ -63,7 +56,7 @@
                 <label for="Tanggal" class="w-50">Jumlah Ayam Mati</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>ekor</label>
                 </div>
             </div>
@@ -71,7 +64,7 @@
                 <label for="Tanggal" class="w-50">Luas Kandang</label>
                 <label class="me-3">:</label>
                 <div class="d-flex flex-row justify-content-start w-50">
-                    <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                    <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                     <label>m²</label>
                 </div>
             </div>

@@ -17,21 +17,21 @@
             <label for="Tanggal" class="w-50">Tanggal Mulai</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="date" class="form-control-plaintext p-0" id="staticEmail">
             </div>
         </div>
         <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
             <label for="Tanggal" class="w-50">Tanggal Panen</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="date" class="form-control-plaintext p-0" id="staticEmail">
             </div>
         </div>
         <div class="bm-font-16 form-group d-flex flex-row justify-content-start pb-2">
             <label for="Tanggal" class="w-50">Jumlah Panen</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                 <label>ekor</label>
             </div>
         </div>
@@ -39,7 +39,7 @@
             <label for="Tanggal" class="w-50">Total Ayam Hidup</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                 <label>ekor</label>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <label for="Tanggal" class="w-50">Total Ayam Mati</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                 <label>ekor</label>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <label for="Tanggal" class="w-50">Bobot Total</label>
             <label class="me-3">:</label>
             <div class="d-flex flex-row justify-content-between w-50">
-                <input type="text" class="form-control-plaintext p-0" id="staticEmail">
+                <input type="number" class="form-control-plaintext p-0" id="staticEmail">
                 <label>kg</label>
             </div>
         </div>

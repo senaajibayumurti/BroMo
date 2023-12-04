@@ -10,18 +10,12 @@ sidebarButton.addEventListener('click', function() {
     if (chevron.classList.contains('bi-chevron-double-right')) {
         chevron.classList.remove('bi-chevron-double-right');
         chevron.classList.add('bi-chevron-double-left');
+        navbarLogo.src = "/images/BroMo Tipografi.png";
     } else {
         chevron.classList.remove('bi-chevron-double-left');
         chevron.classList.add('bi-chevron-double-right');
+        
+            navbarLogo.src = "/images/BroMo Logografi.png";
+        
     }
-    // checkImageWidth(navbarLogo);
 });
-
-// function checkImageWidth(imageElement) {
-//     const lebarGambar = imageElement.width;
-
-//     // Jika lebar gambar kurang dari 50px, ganti src
-//     if (lebarGambar < 50) {
-//         imageElement.src = '\images\BroMo Logografi.png'; // Ganti dengan nama file gambar yang baru
-//     }
-// }

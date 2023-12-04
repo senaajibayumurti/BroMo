@@ -10,14 +10,14 @@
 }
 
 .bm-openednav{
-    width: 250px;
+    width: 30vh;
     height: 100vh;
     box-shadow: 1px 1px 10px grey;
 
     transition: all ease-out .3s;
 }
 .bm-openednav.hide{
-    width: 75px;
+    width: fit-content;
 
     transition: all ease-in .3s;
 }
@@ -37,6 +37,7 @@
     src: url("\images\BroMo Logografi.png");
 } */
 
-#navbar-logo{
-    width: 100%;
+#navbar-logo-container{
+    width: auto;
+    height: 10vh;
 }

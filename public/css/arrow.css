@@ -1,0 +1,22 @@
+/* Untuk menyembunyikan tombol panah di input number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Untuk memastikan tampilan tetap terjaga */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+/* Untuk menyembunyikan tombol panah di input number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Untuk memastikan tampilan tetap terjaga */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
