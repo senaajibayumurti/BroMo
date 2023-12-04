@@ -2,7 +2,10 @@
     @push('navbar-title')
         <span class="bm-font-clr1 bm-font-bold3 bm-font-36">REKAP DATA</span>
     @endpush
-    <table class="table table-bordered border-black my-5">
+    <form action="" method="get" id="card" class="ms-auto">
+        <input type="text"  class="bm-border4 p-2" name="cari-data-kandang" id="card" placeholder="Cari ...">
+    </form>
+    <table class="table table-bordered border-black mt-3">
         <thead class="table-success text-center">
             <tr>
                 <th>No</th>

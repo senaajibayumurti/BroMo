@@ -12,12 +12,12 @@
         <button id="switch-btn" onclick="rightClick()">Rehat</button>
     </div>
     <form action="" method="get" id="card" class="ms-auto">
-        <input type="text"  class="bm-border4 p-2" name="kata" id="card" placeholder="Cari Kandang">
+        <input type="text"  class="bm-border4 p-2" name="cari-kandang" id="card" placeholder="Cari Kandang">
     </form>
     {{-- LIST CARD KANDANG --}}
     <div class="d-inline-flex flex-column justify-content-start align-items-center">
         {{-- CARD KANDANG  --}}
-        <form id="card" class="bm-border1 form-klasifikasi w-75 my-4 p-4">
+        <form id="card" class="bm-border1 form-klasifikasi w-100 my-4 p-4">
             <div class="d-flex flex-row justify-content-between align-items-center">
                 <div class="d-flex flex-column justify-content-center">
                     <div class="bm-font-96 bm-font-bold1 bi bi-bank text-center"></div>

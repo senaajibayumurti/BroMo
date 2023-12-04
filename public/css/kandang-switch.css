@@ -1,7 +1,7 @@
 @import 'style.css';
 
 #switch{
-    margin: 35px auto;
+    margin: 0 auto;
     width: 220px;
     position: relative;
     border-radius: 16px;
