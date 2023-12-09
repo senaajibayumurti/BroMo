@@ -1,11 +1,3 @@
-// function toggleClass(clickedButton) {
-//     var buttons = document.getElementsByClassName('btn-auth');
-//     for (var i = 0; i < buttons.length; i++) {
-//         buttons[i].classList.remove('w-100');
-//     }
-//     clickedButton.classList.add('w-100');
-// }
-
 function toggleClassAndRedirect(clickedButton) {
     var buttons = document.getElementsByClassName('btn-auth');
     var link;

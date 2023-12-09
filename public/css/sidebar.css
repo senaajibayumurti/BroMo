@@ -14,28 +14,23 @@
     height: 100vh;
     box-shadow: 1px 1px 10px grey;
 
-    transition: all ease-out .3s;
+    transition: all ease-out .1s;
 }
 .bm-openednav.hide{
-    width: fit-content;
+    width: 15vh;
 
-    transition: all ease-in .3s;
+    transition: all ease-in .1s;
 }
 .bm-openednav nav{
     height: 100%;
 }
-.bm-openednav.hide a{
+.bm-openednav.hide a, .bm-openednav.hide img{
     display: flex;
     justify-content: center;
-
-    transition: all ease-in-out .3s;
 }
 .bm-openednav.hide #nav-item-text{
     display: none;
 }
-/* .bm-openednav.bm-openednav.hide #navbar-logo{
-    src: url("\images\BroMo Logografi.png");
-} */
 
 #navbar-logo-container{
     width: auto;
