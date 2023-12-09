@@ -1,14 +1,13 @@
 @import 'style.css';
 
+/* FOR TRANSITION */
 .container-fluid{
     height: 100vh;
     padding: 0px;
 }
-
 .nav-link{
     color: #3AB46A;
 }
-
 .bm-openednav{
     width: 30vh;
     height: 100vh;
@@ -24,15 +23,36 @@
 .bm-openednav nav{
     height: 100%;
 }
-.bm-openednav.hide a, .bm-openednav.hide img{
+.bm-openednav.hide a, img{
     display: flex;
     justify-content: center;
 }
-.bm-openednav.hide #nav-item-text{
+.bm-openednav.hide .nav-item-text{
     display: none;
 }
-
 #navbar-logo-container{
     width: auto;
     height: 10vh;
 }
+
+/* FOR INTERACTION */
+.nav-item:hover .nav-item-text {
+    margin-left: 8px;
+    transition: margin-left 0.15s ease-in-out;
+}
+.nav-item .nav-item-text {
+    margin-left: 0;
+    transition: margin-left 0.15s ease;
+}
+
+.nav-item:hover .bi,
+.nav-item:hover .nav-item-text {
+    color: var(--green-bm);
+    transition: all 0.1s ease-in-out;
+}
+.nav-item .bi,
+.nav-item .nav-item-text {
+    color: var(--black-bm);
+    transition: all 0.1s ease;
+}
+

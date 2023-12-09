@@ -9,9 +9,9 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="{{url('/dashboard')}}" class="fw-bold nav-link text-success active">
+            <a href="{{url('/dashboard')}}" class="nav-link text-dark">
                 <i class="bi bi-house"></i>
-                <span id="nav-item-text" >HOME</span>
+                <span class="nav-item-text" >HOME</span>
             </a>
         </li>
 
@@ -19,31 +19,31 @@
         <li class="nav-item">
             <a href="{{url('/forecasting')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
-                <span id="nav-item-text" >FORECASTING</span>
+                <span class="nav-item-text" >FORECASTING</span>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('/rekap-data')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
-                <span id="nav-item-text" >REKAP DATA</span>
+                <span class="nav-item-text" >REKAP DATA</span>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('/panen')}}" class="nav-link text-dark">
                 <i class="bi bi-database-add"></i>
-                <span id="nav-item-text" >PANEN</span>
+                <span class="nav-item-text" >PANEN</span>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('/pekerja')}}" class="nav-link text-dark">
                 <i class="bi bi-people"></i>
-                <span id="nav-item-text" >PEKERJA</span>
+                <span class="nav-item-text" >PEKERJA</span>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('/kandang')}}" class="nav-link text-dark">
                 <i class="bi bi-bank"></i>
-                <span id="nav-item-text" >KANDANG</span>
+                <span class="nav-item-text" >KANDANG</span>
             </a>
         </li>
     
@@ -51,19 +51,19 @@
         <li class="nav-item">
             <a href="{{url('/input-data')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
-                <span id="nav-item-text" >INPUT DATA</span>
+                <span class="nav-item-text" >INPUT DATA</span>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('/input-panen')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
-                <span id="nav-item-text" >INPUT PANEN</span>
+                <span class="nav-item-text" >INPUT PANEN</span>
             </a>
         </li>
     </ul>
 
     <a id="btn-success-bm" href="{{url('/log-in')}}" class="nav-link text-dark text-start mt-auto p-3 w-100">
         <i class="bi bi-box-arrow-right"></i>
-        <span id="nav-item-text" >LOG OUT</span>
+        <span class="nav-item-text" >LOG OUT</span>
     </a>  
 </nav>
