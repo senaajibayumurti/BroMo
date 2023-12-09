@@ -55,4 +55,10 @@
     color: var(--black-bm);
     transition: all 0.1s ease;
 }
-
+.active .bi{
+    color: var(--green-bm);    
+}
+.active .nav-item-text{
+    color: var(--green-bm);
+    margin-left: 8px;
+}

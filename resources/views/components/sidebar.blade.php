@@ -8,7 +8,7 @@
                 <i class="bi bi-chevron-double-left"></i>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('dashboard') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/dashboard')}}" class="nav-link text-dark">
                 <i class="bi bi-house"></i>
                 <span class="nav-item-text" >HOME</span>
@@ -16,31 +16,31 @@
         </li>
 
         {{-- SIDEBAR ITEMS OWNER --}}
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('forecasting') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/forecasting')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
                 <span class="nav-item-text" >FORECASTING</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('rekap-data') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/rekap-data')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
                 <span class="nav-item-text" >REKAP DATA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('panen') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/panen')}}" class="nav-link text-dark">
                 <i class="bi bi-database-add"></i>
                 <span class="nav-item-text" >PANEN</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('pekerja') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/pekerja')}}" class="nav-link text-dark">
                 <i class="bi bi-people"></i>
                 <span class="nav-item-text" >PEKERJA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('kandang') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/kandang')}}" class="nav-link text-dark">
                 <i class="bi bi-bank"></i>
                 <span class="nav-item-text" >KANDANG</span>
@@ -48,13 +48,13 @@
         </li>
     
     {{-- SIDEBAR ITEMS FARMER --}}
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('input-data') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/input-data')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
                 <span class="nav-item-text" >INPUT DATA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ request()->is('input-panen') ? 'active bm-font-medium' : '' }}">
             <a href="{{url('/input-panen')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
                 <span class="nav-item-text" >INPUT PANEN</span>
