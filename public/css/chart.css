@@ -35,11 +35,11 @@
             mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
   }
   
-  .pie:after {
+  /* .pie:after {
     inset: calc(50% - var(--b) / 2);
     background:
       radial-gradient(#000 66%, #0000 67%),
       linear-gradient(#0000 50%, #EBF0F5 0);
     
-  }
+  } */
   

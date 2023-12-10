@@ -37,7 +37,7 @@
 
 /* FOR INTERACTION */
 .nav-item:hover .nav-item-text {
-    margin-left: 8px;
+    margin-left: 4px;
     transition: margin-left 0.15s ease-in-out;
 }
 .nav-item .nav-item-text {
@@ -60,5 +60,5 @@
 }
 .active .nav-item-text{
     color: var(--green-bm);
-    margin-left: 8px;
+    margin-left: 4px;
 }
