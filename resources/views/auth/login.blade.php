@@ -1,8 +1,8 @@
 <x-app-layout>
     <link rel="stylesheet" href="/css/login.css">
 
-    <div class="d-flex flex-row align-items-center position-absolute w-100 h-100 pe-5">
-        <form class="form-login ms-auto">
+    <div class="d-flex flex-row align-items-center position-absolute w-100 h-100">
+        <form class="form-login ms-auto me-5">
             <div class="d-flex flex-row justify-content-between">
                 <div class="text-start mb-4">
                     <div>Welcome To <a class="bm-font-clr1 bm-font-semibold">BroMo</a></div>
