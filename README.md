@@ -1,12 +1,16 @@
-# BroMo
-**LOGO**
+<div align="center">
+  <img src="https://github.com/senaajibayumurti/BroMo/blob/main/public/images/BroMo%20Logografi.png" alt="BroMo Logo"
+      alt="BroMo Logo">
+</div>
 
 <p>
     Sistem Informasi Monitoring Kandang Ayam adalah sebuah perangkat lunak yang dirancang untuk membantu peternak ayam dalam mengawasi dan mengelola kandang ayam secara efisien. Sistem ini akan memungkinkan pengguna untuk memantau berbagai parameter penting seperti tanggal, jam, suhu, kelembapan, amoniak, pakan, minum, bobot, populasi, luas kandang, dan klasifikasi jenis ayam. Selain itu, sistem juga akan memiliki fitur tambahan berupa forecasting untuk memprediksi dan memonitoring ayam yang mati, sehingga peternak dapat mengambil tindakan yang diperlukan dengan cepat.
 </p>
 
-## PENDAHULUAN
-Tampilan halaman yang telah dibangun terbagi menjadi lima kategori, yaitu:
+## PENJELASAN
+Website BroMo dikembangkan menggunakan bahasa php, css dan javascript dengan memanfaatkan framework Laravel serta memanfaatkan library Bootstrap.
+
+Tampilan halaman yang menggunakan template Blade yang disediakan oleh Laravel dalam folder views terbagi menjadi lima kategori, yaitu:
 1. [auth](https://github.com/senaajibayumurti/BroMo/tree/main/resources/views/auth)
    <p>
        Menyimpan file Blade untuk tampilan log in, sign in dan profile
@@ -27,6 +31,9 @@ Tampilan halaman yang telah dibangun terbagi menjadi lima kategori, yaitu:
    <p>
        Menyimpan file Blade untuk tampilan berbagai menu eksklusif untuk pemilik kandang yaitu forecasting, klasifikasi, rekap-data, panen, kandang, pekerja dan tampilan lain.
    </p>
+
+Pengaturan tampilan website bergantung besar dengan library bootstrap, namun untuk pengembangan BroMo yang juga memerlukan eksklusifitas desain website, pengembang menyiapkan CSS class untuk menerapkan gaya tertentu menyesuaikan identitas BroMo. CSS class diatur dalam file [style.css]() dan berikut penjelasannya:
+
 
 
 ## HOW TO RUN
