@@ -32,7 +32,28 @@ Tampilan halaman yang menggunakan template Blade yang disediakan oleh Laravel da
        Menyimpan file Blade untuk tampilan berbagai menu eksklusif untuk pemilik kandang yaitu forecasting, klasifikasi, rekap-data, panen, kandang, pekerja dan tampilan lain.
    </p>
 
-Pengaturan tampilan website bergantung besar dengan library bootstrap, namun untuk pengembangan BroMo yang juga memerlukan eksklusifitas desain website, pengembang menyiapkan CSS class untuk menerapkan gaya tertentu menyesuaikan identitas BroMo. CSS class diatur dalam file [style.css]() dan berikut penjelasannya:
+Pengaturan tampilan website bergantung besar dengan library bootstrap, namun untuk pengembangan BroMo yang juga memerlukan eksklusifitas desain website, pengembang menyiapkan CSS class untuk menerapkan gaya tertentu menyesuaikan identitas BroMo. CSS class diatur dalam file [style.css](https://github.com/senaajibayumurti/BroMo/blob/main/public/css/style.css) dengan format penamaan class diawali dengan bm meskipun terdapat dua class yang tidak mengikuti performatan ini, berikut penjelasannya:
+
+1. Preset Background
+   <p>
+       CSS class ini digunakan untuk mengatur warna latar belakang beberapa elemen php, seperti beberapa tombol atau container. Warna yang dipakai diatur dengan variabel yang sudah diinisiasi menggukan 'root:' menyesuaikan identitas BroMo.
+   </p>
+3. Preset Border
+   <p>
+       CSS class ini mengatur desain border beberapa container menyesuaikan dengan UI/UX yang sudah disiapkan sebelumnya.
+   </p>
+4. Preset Font
+   <p>
+       Pengaturan font diatur dibagi menjadi tiga class yaitu untuk mengatur ketebalan, warna dan ukuran agar penggunaannya lebih fleksibel.
+   </p>
+5. Preset Tombol
+   <p>
+       Pengaturan desain tombol agar sesuai dengan identitas desain BroMo diatur di CSS class ini, menamai class dengan pendekatan yang ada di library Bootstrap.
+   </p>
+6. Card
+   <p>
+       Mengatur border radius.
+   </p>
 
 
 
