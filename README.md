@@ -27,3 +27,23 @@ Tampilan halaman yang telah dibangun terbagi menjadi lima kategori, yaitu:
    <p>
        Menyimpan file Blade untuk tampilan berbagai menu eksklusif untuk pemilik kandang yaitu forecasting, klasifikasi, rekap-data, panen, kandang, pekerja dan tampilan lain.
    </p>
+
+
+## HOW TO RUN
+1. Go to aziz's branch
+   ```
+   git checkout aziz
+   ```
+3. Install Dependencys
+   ```
+   composer i
+   ```
+   ```
+   npm i
+   ```
+3. Change env.example to .env (do adjustment to the database name)
+4. run the backend project from https://github.com/Whyaziz/Backend-BroMo
+5. run this project
+   ```
+   php artisan serve
+   ```
