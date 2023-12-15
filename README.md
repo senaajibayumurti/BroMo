@@ -55,9 +55,9 @@ Pengaturan tampilan website bergantung besar dengan library bootstrap, namun unt
    php artisan serve
    ```
 6. login with account
-   - owner
-     Username : whyaziz
-     Password : kkny5056
-   - penjaga
-     Username : bimacst, wildancst, yudacst, bruno
-     Password : password
+   - owner <br>
+     Username : whyaziz <br>
+     Password : kkny5056 <br>
+   - penjaga <br>
+     Username : bimacst, wildancst, yudacst, bruno <br>
+     Password : password <br>
