@@ -3,7 +3,6 @@
       alt="BroMo Logo">
 </div>
 
-## PENDAHULUAN
 <p>
     Sistem Informasi Monitoring Kandang Ayam adalah sebuah perangkat lunak yang dirancang untuk membantu peternak ayam dalam mengawasi dan mengelola kandang ayam secara efisien. Sistem ini akan memungkinkan pengguna untuk memantau berbagai parameter penting seperti tanggal, jam, suhu, kelembapan, amoniak, pakan, minum, bobot, populasi, luas kandang, dan klasifikasi jenis ayam. Selain itu, sistem juga akan memiliki fitur tambahan berupa forecasting untuk memprediksi dan memonitoring ayam yang mati, sehingga peternak dapat mengambil tindakan yang diperlukan dengan cepat.
 </p>
@@ -33,28 +32,7 @@ Tampilan halaman yang menggunakan template Blade yang disediakan oleh Laravel da
        Menyimpan file Blade untuk tampilan berbagai menu eksklusif untuk pemilik kandang yaitu forecasting, klasifikasi, rekap-data, panen, kandang, pekerja dan tampilan lain.
    </p>
 
-Pengaturan tampilan website bergantung besar dengan library bootstrap, namun untuk pengembangan BroMo yang juga memerlukan eksklusifitas desain website, pengembang menyiapkan CSS class untuk menerapkan gaya tertentu menyesuaikan identitas BroMo. CSS class diatur dalam file [style.css](https://github.com/senaajibayumurti/BroMo/blob/main/public/css/style.css) dengan format penamaan class diawali dengan bm meskipun terdapat dua class yang tidak mengikuti performatan ini, berikut penjelasannya:
-
-1. Preset Background
-   <p>
-       CSS class ini digunakan untuk mengatur warna latar belakang beberapa elemen php, seperti beberapa tombol atau container. Warna yang dipakai diatur dengan variabel yang sudah diinisiasi menggukan 'root:' menyesuaikan identitas BroMo.
-   </p>
-3. Preset Border
-   <p>
-       CSS class ini mengatur desain border beberapa container menyesuaikan dengan UI/UX yang sudah disiapkan sebelumnya.
-   </p>
-4. Preset Font
-   <p>
-       Pengaturan font diatur dibagi menjadi tiga class yaitu untuk mengatur ketebalan, warna dan ukuran agar penggunaannya lebih fleksibel.
-   </p>
-5. Preset Tombol
-   <p>
-       Pengaturan desain tombol agar sesuai dengan identitas desain BroMo diatur di CSS class ini, menamai class dengan pendekatan yang ada di library Bootstrap.
-   </p>
-6. Card
-   <p>
-       Mengatur border radius.
-   </p>
+Pengaturan tampilan website bergantung besar dengan library bootstrap, namun untuk pengembangan BroMo yang juga memerlukan eksklusifitas desain website, pengembang menyiapkan CSS class untuk menerapkan gaya tertentu menyesuaikan identitas BroMo. CSS class diatur dalam file [style.css]() dan berikut penjelasannya:
 
 
 
@@ -76,3 +54,10 @@ Pengaturan tampilan website bergantung besar dengan library bootstrap, namun unt
    ```
    php artisan serve
    ```
+6. login with account
+   - owner
+     Username : whyaziz
+     Password : kkny5056
+   - penjaga
+     Username : bimacst, wildancst, yudacst, bruno
+     Password : password
