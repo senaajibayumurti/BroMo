@@ -44,11 +44,17 @@ Route::get('/forecasting/klasifikasi', function () {
 Route::get('/rekap-data', function () {
     return view('owner.rekap-data');
 });
+Route::get('/rekap-data/detail', function () {
+    return view('owner.detail-data');
+});
 Route::get('/panen', function () {
     return view('owner.panen');
 });
 Route::get('/pekerja', function () {
     return view('owner.pekerja');
+});
+Route::get('/pekerja/detail-pekerja', function () {
+    return view('owner.detail-pekerja');
 });
 Route::get('/pekerja/edit-pekerja', function () {
     return view('owner.edit-pekerja');

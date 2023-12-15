@@ -30,12 +30,18 @@
                     </button>
                 </div>
                 {{-- Social Sign-In --}}
-                <div class="form-label-group mb-4">
-                    <label for="inputEmail">Enter your username or email address</label>
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="form-label-group mb-4 me-2">
+                        <label for="inputEmail">Email Address</label>
+                        <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    </div>
+                    <div class="form-label-group mb-4">
+                        <label for="inputFullName">Full Name</label>
+                        <input type="text" id="inputFullName" class="form-control" placeholder="Full Name" required autofocus>
+                    </div>
                 </div>
                 <div class="d-flex flex-row justify-content-between">
-                    <div class="form-label-group mb-4">
+                    <div class="form-label-group mb-4 me-2">
                         <label for="inputUsername">Username</label>
                         <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
                     </div>
@@ -93,9 +99,10 @@
                 const username = document.getElementById('inputUsername').value;
                 const phone = document.getElementById('inputPhone').value;
                 const password = document.getElementById('inputPassword').value;
+                const fullName = document.getElementById('inputFullName').value;
 
                 // Make an HTTP POST request to the sign-in endpoint
-                const apiUrl = 'http://127.0.0.1:8080/api/register-owner'; // Update with your actual sign-in endpoint
+                const apiUrl = 'http://127.0.0.1:8080/api/register-anak-kandang'; // Update with your actual sign-in endpoint
                 const token = 'Bearer 7|laravel_sanctum_JYgufVpwxjV3looGhw084botoQswPUwcpoymGRaW9b847d24'; // Replace with your actual token
 
                 fetch(apiUrl, {
@@ -105,7 +112,7 @@
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        nama_lengkap : "aziz",
+                        nama_lengkap : fullName,
                         email: email,
                         username: username,
                         no_telepon: phone,
@@ -119,10 +126,11 @@
                     // Handle the sign-in response as needed
                     if (data.status === "Success") {
                         // Redirect to the dashboard or perform other actions
-                        window.location.href = '/log-in';
+                        alert('Sign-in berhasil.');
+                        window.location.href = '{{ url('/log-in') }}';
                     } else {
                         // Handle sign-in failure
-                        alert('Sign-in failed. Please check your credentials.');
+                        alert('Sign-in failed.', error);
                     }
                 })
                 .catch(error => {

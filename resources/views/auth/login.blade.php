@@ -10,7 +10,7 @@
                 </div>
                 <div class="ms-auto">
                     <div class="text-muted">No Account?</div>
-                    <a href="#" class="bm-font-clr1">Register</a>
+                    <a href="/sign-in" class="bm-font-clr1">Register</a>
                 </div>
             </div>
             <div class="d-flex flex-column justify-content-between">
@@ -105,11 +105,23 @@
                 .then(data => {
                     console.log('Login Response:', data);
 
+                    localStorage.setItem('access_token', data.token);
+                    localStorage.setItem('user_id', data.id);
+                    if(data.level == "owner"){
+                        localStorage.setItem('login_id', 1);
+                    }else{
+                        localStorage.setItem('login_id', data.id);
+                    }
+                    // localStorage.setItem('login_id', data.id);
+                    localStorage.setItem('nama', data.nama);
+                    localStorage.setItem('level', data.level);
+                    
                     // Handle the login response as needed
                     if (data.errors) {
                         // Redirect to the dashboard or perform other actions
                         alert('Login failed. Please check your credentials.');
                     } else {
+                        alert('login berhasil')
                         // Handle login failure
                         window.location.href = '{{ url('/dashboard') }}';
                     }
@@ -117,6 +129,7 @@
                 .catch(error => {
                     console.error('Login Error:', error);
                 });
+
             });
         });
     </script>

@@ -22,25 +22,25 @@
                 <span id="nav-item-text" >FORECASTING</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"data-owner>
             <a href="{{url('/rekap-data')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
                 <span id="nav-item-text" >REKAP DATA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"data-owner>
             <a href="{{url('/panen')}}" class="nav-link text-dark">
                 <i class="bi bi-database-add"></i>
                 <span id="nav-item-text" >PANEN</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"data-owner>
             <a href="{{url('/pekerja')}}" class="nav-link text-dark">
                 <i class="bi bi-people"></i>
                 <span id="nav-item-text" >PEKERJA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"data-owner>
             <a href="{{url('/kandang')}}" class="nav-link text-dark">
                 <i class="bi bi-bank"></i>
                 <span id="nav-item-text" >KANDANG</span>
@@ -48,13 +48,13 @@
         </li>
     
     {{-- SIDEBAR ITEMS FARMER --}}
-        <li class="nav-item">
+        <li class="nav-item"data-farmer>
             <a href="{{url('/input-data')}}" class="nav-link text-dark">
                 <i class="bi bi-cloud"></i>
                 <span id="nav-item-text" >INPUT DATA</span>
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"data-farmer>
             <a href="{{url('/input-panen')}}" class="nav-link text-dark">
                 <i class="bi bi-clipboard2-data"></i>
                 <span id="nav-item-text" >INPUT PANEN</span>
@@ -66,4 +66,26 @@
         <i class="bi bi-box-arrow-right"></i>
         <span id="nav-item-text" >LOG OUT</span>
     </a>  
+
+    <script>
+        const levelAcc = localStorage.getItem('level');
+        if (levelAcc !== 'owner') {
+            // Ambil elemen-elemen yang ingin disembunyikan
+            const ownerSidebarItems = document.querySelectorAll('.nav-item[data-owner]');
+            
+            // Sembunyikan elemen-elemen tersebut
+            ownerSidebarItems.forEach(item => {
+                item.style.display = 'none';
+            });
+        }
+        if (levelAcc == 'owner') {
+            const farmerSidebarItems = document.querySelectorAll('.nav-item[data-farmer]');
+            
+            // Sembunyikan elemen-elemen tersebut
+            farmerSidebarItems.forEach(item => {
+                item.style.display = 'none';
+            });
+        }
+    </script>
+
 </nav>
